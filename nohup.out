@@ -7508,3 +7508,10 @@ Failed to resolve import "./css/HeaderItem.css" from "src/HeaderItem.tsx". Does 
 9:35:53 PM [vite] hmr update /src/MainContents.tsx
 9:36:12 PM [vite] hmr update /src/MainContents.tsx
 9:36:14 PM [vite] hmr update /src/MainContents.tsx
+9:38:08 PM [vite] page reload dist/index.html
+9:38:20 PM [vite] page reload dist/index.html
+9:44:20 PM [vite] hmr update /src/Header.tsx
+9:44:31 PM [vite] hmr update /src/Header.tsx
+9:45:19 PM [vite] hmr update /src/Header.tsx
+9:45:28 PM [vite] hmr update /src/Header.tsx
+9:45:29 PM [vite] hmr update /src/Header.tsx
