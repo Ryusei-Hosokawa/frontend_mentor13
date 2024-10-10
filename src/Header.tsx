@@ -66,13 +66,13 @@ export default function Header() {
                     <div className="global-navigation__contents--cart">
                         <img
                             className="global-navigation__contents--cart--image"
-                            src={`${process.env.PUBLIC_URL}src/assets/images/Group 14.svg`}
+                            src={`${process.env.PUBLIC_URL}/assets/images/Group 14.svg`}
                         />
                     </div>
                     <div className="global-navigation__contents--profile">
                         <img
                             className="global-navigation__contents--profile--image"
-                            src={`${process.env.PUBLIC_URL}src/assets/images/DSC02731-Enhanced.jpg`}
+                            src={`${process.env.PUBLIC_URL}/assets/images/DSC02731-Enhanced.jpg`}
                         />
                     </div>
                 </div>
