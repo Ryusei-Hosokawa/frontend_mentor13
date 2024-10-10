@@ -6708,3 +6708,803 @@ Failed to resolve import "./css/HeaderItem.css" from "src/HeaderItem.tsx". Does 
 2:25:04 AM [vite] hmr update /src/HeaderItem.tsx
 2:25:38 AM [vite] hmr update /src/HeaderItem.tsx
 2:28:05 AM [vite] hmr update /src/HeaderItem.tsx
+2:30:38 AM [vite] page reload dist/index.html
+2:30:46 AM [vite] page reload dist/index.html
+10:18:51 PM [vite] hmr update /src/HeaderItem.tsx
+10:19:00 PM [vite] hmr update /src/HeaderItem.tsx
+10:19:00 PM [vite] Internal server error: /Users/ryuseihosokawa/frontend_mentor13/src/HeaderItem.tsx: Unexpected token (37:24)
+
+  35 |                     {item.path && item.path.trim() !== "" ? (
+  36 |                         <Link className="Link" to={item.path}>{item.text}</Link>
+> 37 |                         <Link className="Link" to={item.path}>{item.text}</Link>
+     |                         ^
+  38 |                         ) : (
+  39 |                             <p>{item.text}</p>
+  40 |                     )}
+  Plugin: vite:react-babel
+  File: /Users/ryuseihosokawa/frontend_mentor13/src/HeaderItem.tsx:37:24
+  35 |                      {item.path && item.path.trim() !== "" ? (
+  36 |                          <Link className="Link" to={item.path}>{item.text}</Link>
+  37 |                          <Link className="Link" to={item.path}>{item.text}</Link>
+     |                          ^
+  38 |                          ) : (
+  39 |                              <p>{item.text}</p>
+      at constructor (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:362:19)
+      at TypeScriptParserMixin.raise (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:3259:19)
+      at TypeScriptParserMixin.unexpected (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:3279:16)
+      at TypeScriptParserMixin.checkExpressionErrors (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:3666:12)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10385:12)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9432:20)
+      at TypeScriptParserMixin.parseExpressionBase (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10309:23)
+      at /Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10305:39
+      at TypeScriptParserMixin.allowInAnd (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:11937:12)
+      at TypeScriptParserMixin.parseExpression (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10305:17)
+      at TypeScriptParserMixin.jsxParseExpressionContainer (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:6679:31)
+      at TypeScriptParserMixin.jsxParseElementAt (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:6758:36)
+      at TypeScriptParserMixin.jsxParseElement (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:6796:17)
+      at TypeScriptParserMixin.parseExprAtom (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:6806:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10591:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10576:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10556:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9483:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10410:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10415:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10392:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10355:21)
+      at /Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9421:39
+      at TypeScriptParserMixin.tryParse (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:3597:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9421:18)
+      at /Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10325:39
+      at TypeScriptParserMixin.allowInAnd (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:11937:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10325:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:11196:28)
+      at TypeScriptParserMixin.parseExprAtom (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10849:23)
+      at TypeScriptParserMixin.parseExprAtom (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:6811:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10591:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10576:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10556:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9483:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10410:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10415:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10392:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10355:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9432:20)
+      at TypeScriptParserMixin.parseFunctionBody (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:11613:24)
+      at TypeScriptParserMixin.parseArrowExpression (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:11595:10)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:11208:12)
+      at TypeScriptParserMixin.parseExprAtom (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10849:23)
+      at TypeScriptParserMixin.parseExprAtom (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:6811:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10591:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10576:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10556:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9483:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10410:61)
+10:36:35 PM [vite] hmr update /src/HeaderItem.tsx
+10:36:35 PM [vite] Internal server error: /Users/ryuseihosokawa/frontend_mentor13/src/HeaderItem.tsx: Unexpected token (37:24)
+
+  35 |                     {item.path && item.path.trim() !== "" ? (
+  36 |                         <span>{item.text}</span>
+> 37 |                         <Link className="Link" to={item.path}>{item.text}</Link>
+     |                         ^
+  38 |                         ) : (
+  39 |                             <p>{item.text}</p>
+  40 |                     )}
+  Plugin: vite:react-babel
+  File: /Users/ryuseihosokawa/frontend_mentor13/src/HeaderItem.tsx:37:24
+  35 |                      {item.path && item.path.trim() !== "" ? (
+  36 |                          <span>{item.text}</span>
+  37 |                          <Link className="Link" to={item.path}>{item.text}</Link>
+     |                          ^
+  38 |                          ) : (
+  39 |                              <p>{item.text}</p>
+      at constructor (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:362:19)
+      at TypeScriptParserMixin.raise (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:3259:19)
+      at TypeScriptParserMixin.unexpected (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:3279:16)
+      at TypeScriptParserMixin.checkExpressionErrors (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:3666:12)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10385:12)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9432:20)
+      at TypeScriptParserMixin.parseExpressionBase (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10309:23)
+      at /Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10305:39
+      at TypeScriptParserMixin.allowInAnd (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:11937:12)
+      at TypeScriptParserMixin.parseExpression (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10305:17)
+      at TypeScriptParserMixin.jsxParseExpressionContainer (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:6679:31)
+      at TypeScriptParserMixin.jsxParseElementAt (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:6758:36)
+      at TypeScriptParserMixin.jsxParseElement (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:6796:17)
+      at TypeScriptParserMixin.parseExprAtom (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:6806:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10591:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10576:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10556:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9483:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10410:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10415:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10392:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10355:21)
+      at /Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9421:39
+      at TypeScriptParserMixin.tryParse (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:3597:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9421:18)
+      at /Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10325:39
+      at TypeScriptParserMixin.allowInAnd (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:11937:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10325:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:11196:28)
+      at TypeScriptParserMixin.parseExprAtom (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10849:23)
+      at TypeScriptParserMixin.parseExprAtom (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:6811:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10591:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10576:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10556:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9483:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10410:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10415:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10392:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10355:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9432:20)
+      at TypeScriptParserMixin.parseFunctionBody (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:11613:24)
+      at TypeScriptParserMixin.parseArrowExpression (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:11595:10)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:11208:12)
+      at TypeScriptParserMixin.parseExprAtom (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10849:23)
+      at TypeScriptParserMixin.parseExprAtom (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:6811:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10591:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10576:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10556:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9483:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10410:61)
+10:39:38 PM [vite] hmr update /src/HeaderItem.tsx
+10:39:38 PM [vite] Internal server error: /Users/ryuseihosokawa/frontend_mentor13/src/HeaderItem.tsx: Unexpected token (37:24)
+
+  35 |                     {item.path && item.path.trim() !== "" ? (
+  36 |                         <span>{item.text}</span>
+> 37 |                         <Link className="Link" to={item.path}>
+     |                         ^
+  38 |                             {item.text}
+  39 |                         </Link>
+  40 |                         ) : (
+  Plugin: vite:react-babel
+  File: /Users/ryuseihosokawa/frontend_mentor13/src/HeaderItem.tsx:37:24
+  35 |                      {item.path && item.path.trim() !== "" ? (
+  36 |                          <span>{item.text}</span>
+  37 |                          <Link className="Link" to={item.path}>
+     |                          ^
+  38 |                              {item.text}
+  39 |                          </Link>
+      at constructor (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:362:19)
+      at TypeScriptParserMixin.raise (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:3259:19)
+      at TypeScriptParserMixin.unexpected (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:3279:16)
+      at TypeScriptParserMixin.checkExpressionErrors (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:3666:12)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10385:12)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9432:20)
+      at TypeScriptParserMixin.parseExpressionBase (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10309:23)
+      at /Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10305:39
+      at TypeScriptParserMixin.allowInAnd (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:11937:12)
+      at TypeScriptParserMixin.parseExpression (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10305:17)
+      at TypeScriptParserMixin.jsxParseExpressionContainer (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:6679:31)
+      at TypeScriptParserMixin.jsxParseElementAt (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:6758:36)
+      at TypeScriptParserMixin.jsxParseElement (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:6796:17)
+      at TypeScriptParserMixin.parseExprAtom (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:6806:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10591:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10576:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10556:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9483:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10410:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10415:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10392:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10355:21)
+      at /Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9421:39
+      at TypeScriptParserMixin.tryParse (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:3597:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9421:18)
+      at /Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10325:39
+      at TypeScriptParserMixin.allowInAnd (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:11937:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10325:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:11196:28)
+      at TypeScriptParserMixin.parseExprAtom (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10849:23)
+      at TypeScriptParserMixin.parseExprAtom (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:6811:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10591:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10576:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10556:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9483:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10410:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10415:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10392:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10355:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9432:20)
+      at TypeScriptParserMixin.parseFunctionBody (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:11613:24)
+      at TypeScriptParserMixin.parseArrowExpression (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:11595:10)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:11208:12)
+      at TypeScriptParserMixin.parseExprAtom (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10849:23)
+      at TypeScriptParserMixin.parseExprAtom (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:6811:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10591:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10576:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10556:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9483:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10410:61)
+10:39:45 PM [vite] hmr update /src/HeaderItem.tsx
+10:39:47 PM [vite] hmr update /src/HeaderItem.tsx
+10:48:04 PM [vite] hmr update /src/css/HeaderItem.css
+10:48:27 PM [vite] hmr update /src/css/HeaderItem.css
+10:50:16 PM [vite] hmr update /src/HeaderItem.tsx
+11:16:14 PM [vite] hmr update /src/HeaderItem.tsx
+11:41:01 PM [vite] hmr update /src/HeaderItem.tsx
+11:43:28 PM [vite] hmr update /src/HeaderItem.tsx
+5:59:40 PM [vite] hmr update /src/MainContents.tsx
+6:01:42 PM [vite] hmr update /src/MainContents.tsx
+6:01:43 PM [vite] hmr update /src/MainContents.tsx
+6:02:49 PM [vite] hmr update /src/MainContents.tsx
+6:02:50 PM [vite] hmr update /src/MainContents.tsx
+6:03:28 PM [vite] hmr update /src/MainContents.tsx
+6:03:36 PM [vite] hmr update /src/MainContents.tsx
+6:03:38 PM [vite] hmr update /src/MainContents.tsx
+6:04:54 PM [vite] hmr update /src/MainContents.tsx
+6:05:24 PM [vite] hmr update /src/MainContents.tsx
+6:05:36 PM [vite] hmr update /src/MainContents.tsx
+6:05:38 PM [vite] hmr update /src/MainContents.tsx
+6:06:05 PM [vite] hmr update /src/MainContents.tsx
+6:06:07 PM [vite] hmr update /src/MainContents.tsx
+6:07:17 PM [vite] hmr update /src/Header.tsx
+6:07:37 PM [vite] hmr update /src/MainContents.tsx
+6:08:02 PM [vite] hmr update /src/MainContents.tsx
+6:08:33 PM [vite] hmr update /src/Header.tsx
+6:08:38 PM [vite] hmr update /src/HeaderItem.tsx
+6:08:50 PM [vite] hmr update /src/MainContents.tsx
+6:09:26 PM [vite] hmr update /src/MainContents.tsx
+6:09:38 PM [vite] hmr update /src/MainContents.tsx
+6:09:39 PM [vite] hmr update /src/MainContents.tsx
+6:11:12 PM [vite] hmr update /src/MainContents.tsx
+6:11:47 PM [vite] hmr update /src/MainContents.tsx
+6:11:52 PM [vite] hmr update /src/MainContents.tsx
+6:11:54 PM [vite] hmr update /src/MainContents.tsx
+6:13:49 PM [vite] hmr update /src/Header.tsx
+7:40:24 PM [vite] hmr update /src/Header.tsx
+7:40:25 PM [vite] hmr update /src/Header.tsx
+7:40:37 PM [vite] hmr update /src/Header.tsx
+7:40:57 PM [vite] hmr update /src/Header.tsx
+7:45:56 PM [vite] hmr update /src/HeaderItem.tsx
+7:49:02 PM [vite] hmr update /src/MainContents.tsx
+7:59:29 PM [vite] hmr update /src/MainContents.tsx
+7:59:34 PM [vite] hmr update /src/App.tsx
+8:00:40 PM [vite] hmr update /src/css/HeaderItem.css
+8:50:05 PM [vite] hmr update /src/MainContents.tsx
+8:50:13 PM [vite] hmr update /src/MainContents.tsx
+8:56:17 PM [vite] hmr update /src/MainContents.tsx
+8:56:24 PM [vite] hmr update /src/MainContents.tsx
+8:59:40 PM [vite] hmr update /src/App.tsx
+8:59:58 PM [vite] hmr update /src/App.tsx
+9:02:27 PM [vite] hmr update /src/MainContents.tsx
+9:02:41 PM [vite] hmr update /src/MainContents.tsx
+9:03:07 PM [vite] hmr update /src/App.tsx
+9:03:12 PM [vite] hmr update /src/MainContents.tsx
+9:03:57 PM [vite] hmr update /src/App.tsx
+9:03:59 PM [vite] hmr update /src/App.tsx
+9:05:23 PM [vite] hmr update /src/MainContents.tsx
+9:05:23 PM [vite] Internal server error: /Users/ryuseihosokawa/frontend_mentor13/src/MainContents.tsx: Identifier 'Routes' has already been declared. (4:26)
+
+  2 | import "./css/MainContents.css";
+  3 | import { Routes, Route } from "react-router-dom";
+> 4 | import { BrowserRouter as Routes, Route } from "react-router-dom";
+    |                           ^
+  5 | import Collections from "./pages/Collections.tsx";
+  6 |
+  7 | export default function MainContents() {
+  Plugin: vite:react-babel
+  File: /Users/ryuseihosokawa/frontend_mentor13/src/MainContents.tsx:4:26
+  2  |  import "./css/MainContents.css";
+  3  |  import { Routes, Route } from "react-router-dom";
+  4  |  import { BrowserRouter as Routes, Route } from "react-router-dom";
+     |                            ^
+  5  |  import Collections from "./pages/Collections.tsx";
+  6  |  
+      at constructor (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:362:19)
+      at TypeScriptParserMixin.raise (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:3259:19)
+      at TypeScriptScopeHandler.declareName (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:6913:21)
+      at TypeScriptParserMixin.declareNameFromIdentifier (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:7350:16)
+      at TypeScriptParserMixin.checkIdentifier (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:7346:12)
+      at TypeScriptParserMixin.checkLVal (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:7287:12)
+      at TypeScriptParserMixin.finishImportSpecifier (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:13734:10)
+      at TypeScriptParserMixin.parseImportSpecifier (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:13899:17)
+      at TypeScriptParserMixin.parseImportSpecifier (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9793:18)
+      at TypeScriptParserMixin.parseNamedImportSpecifiers (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:13878:36)
+      at TypeScriptParserMixin.parseImportSpecifiersAndAfter (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:13711:37)
+      at TypeScriptParserMixin.parseImport (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:13704:17)
+      at TypeScriptParserMixin.parseImport (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9073:26)
+      at TypeScriptParserMixin.parseStatementContent (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12351:27)
+      at TypeScriptParserMixin.parseStatementContent (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9157:18)
+      at TypeScriptParserMixin.parseStatementLike (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12243:17)
+      at TypeScriptParserMixin.parseModuleItem (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12220:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12796:36)
+      at TypeScriptParserMixin.parseBlockBody (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12789:10)
+      at TypeScriptParserMixin.parseProgram (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12117:10)
+      at TypeScriptParserMixin.parseTopLevel (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12107:25)
+      at TypeScriptParserMixin.parse (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:13923:10)
+      at TypeScriptParserMixin.parse (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9771:18)
+      at parse (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:13957:38)
+      at parser (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/core/lib/transformation/index.js:21:50)
+      at run.next (<anonymous>)
+      at transform (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/Users/ryuseihosokawa/frontend_mentor13/node_modules/gensync/index.js:261:32)
+      at /Users/ryuseihosokawa/frontend_mentor13/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/Users/ryuseihosokawa/frontend_mentor13/node_modules/gensync/index.js:223:11)
+      at /Users/ryuseihosokawa/frontend_mentor13/node_modules/gensync/index.js:189:28
+      at /Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /Users/ryuseihosokawa/frontend_mentor13/node_modules/gensync/index.js:113:33
+      at step (/Users/ryuseihosokawa/frontend_mentor13/node_modules/gensync/index.js:287:14)
+      at /Users/ryuseihosokawa/frontend_mentor13/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/Users/ryuseihosokawa/frontend_mentor13/node_modules/gensync/index.js:223:11)
+9:05:26 PM [vite] hmr update /src/MainContents.tsx
+9:06:13 PM [vite] hmr update /src/MainContents.tsx
+9:06:33 PM [vite] hmr update /src/MainContents.tsx
+9:23:28 PM [vite] hmr update /src/MainContents.tsx
+9:23:28 PM [vite] hmr invalidate /src/MainContents.tsx Could not Fast Refresh (new export)
+9:23:28 PM [vite] hmr update /src/App.tsx
+4:10:01 PM [vite] hmr update /src/MainContents.tsx
+4:10:01 PM [vite] hmr invalidate /src/MainContents.tsx Could not Fast Refresh (export removed)
+4:10:01 PM [vite] hmr update /src/App.tsx
+4:10:13 PM [vite] hmr update /src/HeaderItem.tsx
+4:11:20 PM [vite] hmr update /src/Header.tsx
+4:11:25 PM [vite] hmr update /src/Header.tsx
+4:11:25 PM [vite] Internal server error: /Users/ryuseihosokawa/frontend_mentor13/src/Header.tsx: Unexpected token (9:4)
+
+   7 |     const navItems = {
+   8 |         "Collections"
+>  9 |     }
+     |     ^
+  10 |     const nacText = navItems.map((navItem) => ({ id: navItem, text: navItem, path: `${navItem.toLowerCase()}`}));
+  11 |
+  12 |     return (
+  Plugin: vite:react-babel
+  File: /Users/ryuseihosokawa/frontend_mentor13/src/Header.tsx:9:4
+  7  |      const navItems = {
+  8  |          "Collections"
+  9  |      }
+     |      ^
+  10 |      const nacText = navItems.map((navItem) => ({ id: navItem, text: navItem, path: `${navItem.toLowerCase()}`}));
+  11 |  
+      at constructor (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:362:19)
+      at TypeScriptParserMixin.raise (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:3259:19)
+      at TypeScriptParserMixin.unexpected (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:3279:16)
+      at TypeScriptParserMixin.parseObjPropValue (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:11499:21)
+      at TypeScriptParserMixin.parseObjPropValue (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9390:18)
+      at TypeScriptParserMixin.parsePropertyDefinition (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:11438:17)
+      at TypeScriptParserMixin.parseObjectLike (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:11353:21)
+      at TypeScriptParserMixin.parseExprAtom (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10867:23)
+      at TypeScriptParserMixin.parseExprAtom (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:6811:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10591:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10576:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10556:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9483:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10410:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10415:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10392:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10355:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9432:20)
+      at /Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10325:39
+      at TypeScriptParserMixin.allowInAnd (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:11932:16)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10325:17)
+      at TypeScriptParserMixin.parseVar (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12864:91)
+      at TypeScriptParserMixin.parseVarStatement (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12710:10)
+      at TypeScriptParserMixin.parseVarStatement (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9127:31)
+      at TypeScriptParserMixin.parseStatementContent (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12326:23)
+      at TypeScriptParserMixin.parseStatementContent (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9157:18)
+      at TypeScriptParserMixin.parseStatementLike (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12243:17)
+      at TypeScriptParserMixin.parseStatementListItem (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12223:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12796:61)
+      at TypeScriptParserMixin.parseBlockBody (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12789:10)
+      at TypeScriptParserMixin.parseBlock (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12777:10)
+      at TypeScriptParserMixin.parseFunctionBody (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:11620:24)
+      at TypeScriptParserMixin.parseFunctionBodyAndFinish (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:11606:10)
+      at TypeScriptParserMixin.parseFunctionBodyAndFinish (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:8898:18)
+      at /Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12921:12
+      at TypeScriptParserMixin.withSmartMixTopicForbiddingContext (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:11914:14)
+      at TypeScriptParserMixin.parseFunction (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12920:10)
+      at TypeScriptParserMixin.parseExportDefaultExpression (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:13375:19)
+      at TypeScriptParserMixin.parseExportDefaultExpression (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9121:18)
+      at TypeScriptParserMixin.parseExport (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:13301:25)
+      at TypeScriptParserMixin.parseExport (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9104:20)
+      at TypeScriptParserMixin.parseStatementContent (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12356:27)
+      at TypeScriptParserMixin.parseStatementContent (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9157:18)
+      at TypeScriptParserMixin.parseStatementLike (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12243:17)
+      at TypeScriptParserMixin.parseModuleItem (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12220:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12796:36)
+      at TypeScriptParserMixin.parseBlockBody (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12789:10)
+      at TypeScriptParserMixin.parseProgram (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12117:10)
+      at TypeScriptParserMixin.parseTopLevel (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12107:25)
+      at TypeScriptParserMixin.parse (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:13923:10)
+4:12:05 PM [vite] hmr update /src/Header.tsx
+4:12:10 PM [vite] hmr update /src/Header.tsx
+4:12:29 PM [vite] hmr update /src/Header.tsx
+4:13:19 PM [vite] hmr update /src/Header.tsx
+4:13:23 PM [vite] hmr update /src/Header.tsx
+4:13:35 PM [vite] hmr update /src/Header.tsx
+4:13:38 PM [vite] hmr update /src/Header.tsx
+4:16:43 PM [vite] hmr update /src/HeaderItem.tsx
+4:21:45 PM [vite] hmr update /src/HeaderItem.tsx
+4:21:45 PM [vite] Internal server error: /Users/ryuseihosokawa/frontend_mentor13/src/HeaderItem.tsx: 'import' and 'export' may only appear at the top level. (50:0)
+
+  48 | };
+  49 |
+> 50 | export default HeaderItem;
+     | ^
+  51 |
+  Plugin: vite:react-babel
+  File: /Users/ryuseihosokawa/frontend_mentor13/src/HeaderItem.tsx:50:0
+  47 |      );
+  48 |  };
+  49 |  
+     |   ^
+  50 |  export default HeaderItem;
+  51 |  
+      at constructor (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:362:19)
+      at TypeScriptParserMixin.raise (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:3259:19)
+      at TypeScriptParserMixin.parseStatementContent (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12346:18)
+      at TypeScriptParserMixin.parseStatementContent (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9157:18)
+      at TypeScriptParserMixin.parseStatementLike (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12243:17)
+      at TypeScriptParserMixin.parseStatementListItem (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12223:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12796:61)
+      at TypeScriptParserMixin.parseBlockBody (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12789:10)
+      at TypeScriptParserMixin.parseBlock (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12777:10)
+      at TypeScriptParserMixin.parseFunctionBody (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:11620:24)
+      at TypeScriptParserMixin.parseArrowExpression (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:11595:10)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:11208:12)
+      at TypeScriptParserMixin.parseExprAtom (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10849:23)
+      at TypeScriptParserMixin.parseExprAtom (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:6811:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10591:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10576:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10556:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9483:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10410:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10415:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10392:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10355:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9432:20)
+      at /Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10325:39
+      at TypeScriptParserMixin.allowInAnd (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:11932:16)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10325:17)
+      at TypeScriptParserMixin.parseVar (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12864:91)
+      at TypeScriptParserMixin.parseVarStatement (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12710:10)
+      at TypeScriptParserMixin.parseVarStatement (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9127:31)
+      at TypeScriptParserMixin.parseStatementContent (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12326:23)
+      at TypeScriptParserMixin.parseStatementContent (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9157:18)
+      at TypeScriptParserMixin.parseStatementLike (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12243:17)
+      at TypeScriptParserMixin.parseModuleItem (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12220:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12796:36)
+      at TypeScriptParserMixin.parseBlockBody (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12789:10)
+      at TypeScriptParserMixin.parseProgram (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12117:10)
+      at TypeScriptParserMixin.parseTopLevel (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12107:25)
+      at TypeScriptParserMixin.parse (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:13923:10)
+      at TypeScriptParserMixin.parse (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9771:18)
+      at parse (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:13957:38)
+      at parser (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/core/lib/transformation/index.js:21:50)
+      at run.next (<anonymous>)
+      at transform (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/Users/ryuseihosokawa/frontend_mentor13/node_modules/gensync/index.js:261:32)
+      at /Users/ryuseihosokawa/frontend_mentor13/node_modules/gensync/index.js:273:13
+4:32:00 PM [vite] hmr update /src/HeaderItem.tsx
+4:32:00 PM [vite] Internal server error: /Users/ryuseihosokawa/frontend_mentor13/src/HeaderItem.tsx: 'import' and 'export' may only appear at the top level. (50:0)
+
+  48 | };
+  49 |
+> 50 | export default HeaderItem;
+     | ^
+  51 |
+  Plugin: vite:react-babel
+  File: /Users/ryuseihosokawa/frontend_mentor13/src/HeaderItem.tsx:50:0
+  47 |      );
+  48 |  };
+  49 |  
+     |   ^
+  50 |  export default HeaderItem;
+  51 |  
+      at constructor (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:362:19)
+      at TypeScriptParserMixin.raise (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:3259:19)
+      at TypeScriptParserMixin.parseStatementContent (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12346:18)
+      at TypeScriptParserMixin.parseStatementContent (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9157:18)
+      at TypeScriptParserMixin.parseStatementLike (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12243:17)
+      at TypeScriptParserMixin.parseStatementListItem (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12223:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12796:61)
+      at TypeScriptParserMixin.parseBlockBody (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12789:10)
+      at TypeScriptParserMixin.parseBlock (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12777:10)
+      at TypeScriptParserMixin.parseFunctionBody (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:11620:24)
+      at TypeScriptParserMixin.parseArrowExpression (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:11595:10)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:11208:12)
+      at TypeScriptParserMixin.parseExprAtom (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10849:23)
+      at TypeScriptParserMixin.parseExprAtom (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:6811:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10591:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10576:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10556:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9483:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10410:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10415:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10392:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10355:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9432:20)
+      at /Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10325:39
+      at TypeScriptParserMixin.allowInAnd (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:11932:16)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10325:17)
+      at TypeScriptParserMixin.parseVar (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12864:91)
+      at TypeScriptParserMixin.parseVarStatement (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12710:10)
+      at TypeScriptParserMixin.parseVarStatement (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9127:31)
+      at TypeScriptParserMixin.parseStatementContent (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12326:23)
+      at TypeScriptParserMixin.parseStatementContent (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9157:18)
+      at TypeScriptParserMixin.parseStatementLike (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12243:17)
+      at TypeScriptParserMixin.parseModuleItem (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12220:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12796:36)
+      at TypeScriptParserMixin.parseBlockBody (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12789:10)
+      at TypeScriptParserMixin.parseProgram (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12117:10)
+      at TypeScriptParserMixin.parseTopLevel (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12107:25)
+      at TypeScriptParserMixin.parse (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:13923:10)
+      at TypeScriptParserMixin.parse (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9771:18)
+      at parse (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:13957:38)
+      at parser (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/core/lib/transformation/index.js:21:50)
+      at run.next (<anonymous>)
+      at transform (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/Users/ryuseihosokawa/frontend_mentor13/node_modules/gensync/index.js:261:32)
+      at /Users/ryuseihosokawa/frontend_mentor13/node_modules/gensync/index.js:273:13
+4:35:29 PM [vite] hmr update /src/HeaderItem.tsx
+4:36:31 PM [vite] hmr update /src/HeaderItem.tsx
+4:37:21 PM [vite] hmr update /src/HeaderItem.tsx
+4:37:49 PM [vite] hmr update /src/HeaderItem.tsx
+4:39:22 PM [vite] hmr update /src/HeaderItem.tsx
+4:43:34 PM [vite] hmr update /src/HeaderItem.tsx
+4:43:45 PM [vite] hmr update /src/HeaderItem.tsx
+4:44:08 PM [vite] hmr update /src/Header.tsx
+4:44:52 PM [vite] hmr update /src/Header.tsx
+8:50:05 PM [vite] hmr update /src/Header.tsx
+8:50:05 PM [vite] Internal server error: /Users/ryuseihosokawa/frontend_mentor13/src/Header.tsx: Unterminated string constant. (6:26)
+
+  4 |
+  5 | export default function Header() {
+> 6 |     const navItemNames = ["Collections
+    |                           ^
+  7 |     const navItems = [
+  8 |         { id: "Collections", text: "Collections", path: "collections", isImplemented: true },
+  9 |         { id: "Men", text: "Men", path: null, isImplemented: false },
+  Plugin: vite:react-babel
+  File: /Users/ryuseihosokawa/frontend_mentor13/src/Header.tsx:6:26
+  4  |  
+  5  |  export default function Header() {
+  6  |      const navItemNames = ["Collections
+     |                            ^
+  7  |      const navItems = [
+  8  |          { id: "Collections", text: "Collections", path: "collections", isImplemented: true },
+      at constructor (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:362:19)
+      at TypeScriptParserMixin.raise (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:3259:19)
+      at Object.unterminated (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:2328:20)
+      at readStringContents (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:2071:16)
+      at TypeScriptParserMixin.readString (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:3158:9)
+      at TypeScriptParserMixin.getTokenFromCode (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:2919:14)
+      at TypeScriptParserMixin.getTokenFromCode (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:6844:11)
+      at TypeScriptParserMixin.getTokenFromCode (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9634:11)
+      at TypeScriptParserMixin.nextToken (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:2443:10)
+      at TypeScriptParserMixin.next (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:2356:10)
+      at TypeScriptParserMixin.parseArrayLike (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:11576:10)
+      at TypeScriptParserMixin.parseArrayLike (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:8919:24)
+      at TypeScriptParserMixin.parseExprAtom (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10858:23)
+      at TypeScriptParserMixin.parseExprAtom (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:6811:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10591:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10576:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10556:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9483:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10410:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10415:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10392:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10355:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9432:20)
+      at /Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10325:39
+      at TypeScriptParserMixin.allowInAnd (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:11932:16)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10325:17)
+      at TypeScriptParserMixin.parseVar (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12864:91)
+      at TypeScriptParserMixin.parseVarStatement (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12710:10)
+      at TypeScriptParserMixin.parseVarStatement (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9127:31)
+      at TypeScriptParserMixin.parseStatementContent (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12326:23)
+      at TypeScriptParserMixin.parseStatementContent (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9157:18)
+      at TypeScriptParserMixin.parseStatementLike (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12243:17)
+      at TypeScriptParserMixin.parseStatementListItem (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12223:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12796:61)
+      at TypeScriptParserMixin.parseBlockBody (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12789:10)
+      at TypeScriptParserMixin.parseBlock (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12777:10)
+      at TypeScriptParserMixin.parseFunctionBody (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:11620:24)
+      at TypeScriptParserMixin.parseFunctionBodyAndFinish (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:11606:10)
+      at TypeScriptParserMixin.parseFunctionBodyAndFinish (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:8898:18)
+      at /Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12921:12
+      at TypeScriptParserMixin.withSmartMixTopicForbiddingContext (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:11914:14)
+      at TypeScriptParserMixin.parseFunction (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12920:10)
+      at TypeScriptParserMixin.parseExportDefaultExpression (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:13375:19)
+      at TypeScriptParserMixin.parseExportDefaultExpression (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9121:18)
+      at TypeScriptParserMixin.parseExport (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:13301:25)
+      at TypeScriptParserMixin.parseExport (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9104:20)
+      at TypeScriptParserMixin.parseStatementContent (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12356:27)
+      at TypeScriptParserMixin.parseStatementContent (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9157:18)
+      at TypeScriptParserMixin.parseStatementLike (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12243:17)
+      at TypeScriptParserMixin.parseModuleItem (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12220:17)
+8:50:11 PM [vite] hmr update /src/Header.tsx
+8:50:11 PM [vite] Internal server error: /Users/ryuseihosokawa/frontend_mentor13/src/Header.tsx: Unexpected token, expected "," (7:4)
+
+   5 | export default function Header() {
+   6 |     const navItemNames = ["Collections"
+>  7 |     const navItems = [
+     |     ^
+   8 |         { id: "Collections", text: "Collections", path: "collections", isImplemented: true },
+   9 |         { id: "Men", text: "Men", path: null, isImplemented: false },
+  10 |         { id: "Women", text: "Women", path: null, isImplemented: false },
+  Plugin: vite:react-babel
+  File: /Users/ryuseihosokawa/frontend_mentor13/src/Header.tsx:7:4
+  5  |  export default function Header() {
+  6  |      const navItemNames = ["Collections"
+  7  |      const navItems = [
+     |      ^
+  8  |          { id: "Collections", text: "Collections", path: "collections", isImplemented: true },
+  9  |          { id: "Men", text: "Men", path: null, isImplemented: false },
+      at constructor (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:362:19)
+      at TypeScriptParserMixin.raise (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:3259:19)
+      at TypeScriptParserMixin.unexpected (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:3279:16)
+      at TypeScriptParserMixin.expect (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:3589:12)
+      at TypeScriptParserMixin.parseExprList (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:11661:14)
+      at TypeScriptParserMixin.parseArrayLike (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:11577:26)
+      at TypeScriptParserMixin.parseArrayLike (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:8919:24)
+      at TypeScriptParserMixin.parseExprAtom (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10858:23)
+      at TypeScriptParserMixin.parseExprAtom (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:6811:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10591:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10576:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10556:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9483:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10410:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10415:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10392:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10355:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9432:20)
+      at /Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10325:39
+      at TypeScriptParserMixin.allowInAnd (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:11932:16)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:10325:17)
+      at TypeScriptParserMixin.parseVar (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12864:91)
+      at TypeScriptParserMixin.parseVarStatement (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12710:10)
+      at TypeScriptParserMixin.parseVarStatement (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9127:31)
+      at TypeScriptParserMixin.parseStatementContent (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12326:23)
+      at TypeScriptParserMixin.parseStatementContent (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9157:18)
+      at TypeScriptParserMixin.parseStatementLike (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12243:17)
+      at TypeScriptParserMixin.parseStatementListItem (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12223:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12796:61)
+      at TypeScriptParserMixin.parseBlockBody (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12789:10)
+      at TypeScriptParserMixin.parseBlock (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12777:10)
+      at TypeScriptParserMixin.parseFunctionBody (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:11620:24)
+      at TypeScriptParserMixin.parseFunctionBodyAndFinish (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:11606:10)
+      at TypeScriptParserMixin.parseFunctionBodyAndFinish (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:8898:18)
+      at /Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12921:12
+      at TypeScriptParserMixin.withSmartMixTopicForbiddingContext (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:11914:14)
+      at TypeScriptParserMixin.parseFunction (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12920:10)
+      at TypeScriptParserMixin.parseExportDefaultExpression (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:13375:19)
+      at TypeScriptParserMixin.parseExportDefaultExpression (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9121:18)
+      at TypeScriptParserMixin.parseExport (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:13301:25)
+      at TypeScriptParserMixin.parseExport (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9104:20)
+      at TypeScriptParserMixin.parseStatementContent (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12356:27)
+      at TypeScriptParserMixin.parseStatementContent (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:9157:18)
+      at TypeScriptParserMixin.parseStatementLike (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12243:17)
+      at TypeScriptParserMixin.parseModuleItem (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12220:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12796:36)
+      at TypeScriptParserMixin.parseBlockBody (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12789:10)
+      at TypeScriptParserMixin.parseProgram (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12117:10)
+      at TypeScriptParserMixin.parseTopLevel (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:12107:25)
+      at TypeScriptParserMixin.parse (/Users/ryuseihosokawa/frontend_mentor13/node_modules/@babel/parser/lib/index.js:13923:10)
+8:50:15 PM [vite] hmr update /src/Header.tsx
+8:50:59 PM [vite] hmr update /src/Header.tsx
+8:51:03 PM [vite] hmr update /src/Header.tsx
+8:51:04 PM [vite] hmr update /src/Header.tsx
+8:51:32 PM [vite] hmr update /src/Header.tsx
+8:51:36 PM [vite] hmr update /src/Header.tsx
+8:52:36 PM [vite] hmr update /src/Header.tsx
+8:52:38 PM [vite] hmr update /src/Header.tsx
+8:52:42 PM [vite] hmr update /src/Header.tsx
+8:52:43 PM [vite] hmr update /src/Header.tsx
+8:54:11 PM [vite] hmr update /src/Header.tsx
+8:54:32 PM [vite] hmr update /src/Header.tsx
+8:55:02 PM [vite] hmr update /src/Header.tsx
+8:55:28 PM [vite] hmr update /src/Header.tsx
+8:57:24 PM [vite] hmr update /src/HeaderItem.tsx
+8:57:59 PM [vite] hmr update /src/HeaderItem.tsx
+8:59:42 PM [vite] hmr update /src/Header.tsx
+9:00:16 PM [vite] hmr update /src/Header.tsx
+9:00:34 PM [vite] hmr update /src/Header.tsx
+9:02:07 PM [vite] hmr update /src/HeaderItem.tsx
+9:02:10 PM [vite] hmr update /src/HeaderItem.tsx
+9:02:33 PM [vite] hmr update /src/HeaderItem.tsx
+9:02:52 PM [vite] hmr update /src/Header.tsx
+9:03:25 PM [vite] hmr update /src/HeaderItem.tsx
+9:03:34 PM [vite] hmr update /src/HeaderItem.tsx
+9:03:54 PM [vite] hmr update /src/HeaderItem.tsx
+9:04:35 PM [vite] hmr update /src/HeaderItem.tsx
+9:05:02 PM [vite] hmr update /src/css/HeaderItem.css
+9:05:19 PM [vite] hmr update /src/css/HeaderItem.css
+9:05:30 PM [vite] hmr update /src/css/HeaderItem.css
+9:05:32 PM [vite] hmr update /src/css/HeaderItem.css
+9:05:45 PM [vite] hmr update /src/css/HeaderItem.css
+9:05:55 PM [vite] hmr update /src/css/HeaderItem.css
+9:05:56 PM [vite] hmr update /src/css/HeaderItem.css
+9:05:56 PM [vite] hmr update /src/css/HeaderItem.css
+9:06:02 PM [vite] hmr update /src/css/HeaderItem.css
+9:06:13 PM [vite] hmr update /src/css/HeaderItem.css
+9:06:44 PM [vite] hmr update /src/css/HeaderItem.css
+9:06:51 PM [vite] hmr update /src/css/HeaderItem.css
+9:07:16 PM [vite] hmr update /src/css/HeaderItem.css
+9:07:17 PM [vite] hmr update /src/css/HeaderItem.css
+9:07:21 PM [vite] hmr update /src/css/HeaderItem.css
+9:07:24 PM [vite] hmr update /src/css/HeaderItem.css
+9:07:25 PM [vite] hmr update /src/css/HeaderItem.css
+9:07:27 PM [vite] hmr update /src/css/HeaderItem.css
+9:07:46 PM [vite] hmr update /src/css/HeaderItem.css
+9:08:40 PM [vite] hmr update /src/css/HeaderItem.css
+9:09:00 PM [vite] hmr update /src/css/HeaderItem.css
+9:09:13 PM [vite] hmr update /src/css/HeaderItem.css
+9:09:24 PM [vite] hmr update /src/css/HeaderItem.css
+9:09:33 PM [vite] hmr update /src/css/HeaderItem.css
+9:09:50 PM [vite] hmr update /src/css/HeaderItem.css
+9:10:04 PM [vite] hmr update /src/css/HeaderItem.css
+9:11:15 PM [vite] hmr update /src/Header.tsx
+9:16:29 PM [vite] hmr update /src/MainContents.tsx
+9:19:58 PM [vite] hmr update /src/MainContents.tsx
+9:20:06 PM [vite] hmr update /src/MainContents.tsx
+9:20:34 PM [vite] hmr update /src/MainContents.tsx
+9:20:57 PM [vite] hmr update /src/MainContents.tsx
+9:21:07 PM [vite] hmr update /src/MainContents.tsx
+9:21:09 PM [vite] hmr update /src/MainContents.tsx
+9:21:25 PM [vite] hmr update /src/MainContents.tsx
+9:21:39 PM [vite] hmr update /src/MainContents.tsx
+9:21:51 PM [vite] hmr update /src/Header.tsx
+9:22:30 PM [vite] hmr update /src/Header.tsx
+9:22:37 PM [vite] hmr update /src/Header.tsx
+9:23:10 PM [vite] hmr update /src/MainContents.tsx
+9:23:25 PM [vite] hmr update /src/MainContents.tsx
+9:23:35 PM [vite] hmr update /src/MainContents.tsx
+9:23:42 PM [vite] hmr update /src/MainContents.tsx
+9:24:38 PM [vite] hmr update /src/css/Header.css
+9:25:07 PM [vite] hmr update /src/css/Header.css
+9:25:16 PM [vite] hmr update /src/css/Header.css
+9:26:23 PM [vite] hmr update /src/MainContents.tsx
+9:26:37 PM [vite] hmr update /src/MainContents.tsx
+9:26:39 PM [vite] hmr update /src/MainContents.tsx
+9:26:41 PM [vite] hmr update /src/MainContents.tsx
+9:26:42 PM [vite] hmr update /src/MainContents.tsx
+9:26:44 PM [vite] hmr update /src/MainContents.tsx
+9:26:58 PM [vite] hmr update /src/css/Header.css
+9:27:05 PM [vite] hmr update /src/css/Header.css
+9:27:30 PM [vite] hmr update /src/css/Header.css
+9:27:33 PM [vite] hmr update /src/css/Header.css
+9:28:32 PM [vite] hmr update /src/css/App.css
+9:28:41 PM [vite] hmr update /src/css/App.css
+9:29:14 PM [vite] hmr update /src/css/App.css
+9:29:19 PM [vite] hmr update /src/css/App.css
+9:29:28 PM [vite] hmr update /src/css/App.css
+9:29:33 PM [vite] hmr update /src/css/App.css
+9:29:38 PM [vite] hmr update /src/css/App.css
+9:29:39 PM [vite] hmr update /src/css/App.css
+9:30:36 PM [vite] hmr update /src/css/main.css
+9:30:55 PM [vite] hmr update /src/css/main.css
+9:31:17 PM [vite] hmr update /src/css/App.css
+9:31:35 PM [vite] hmr update /src/css/App.css
+9:31:36 PM [vite] hmr update /src/css/App.css
+9:31:42 PM [vite] hmr update /src/css/App.css
+9:31:49 PM [vite] hmr update /src/css/App.css
+9:31:58 PM [vite] hmr update /src/css/App.css
+9:32:08 PM [vite] hmr update /src/css/App.css
+9:32:41 PM [vite] hmr update /src/css/App.css
+9:32:50 PM [vite] hmr update /src/css/App.css
+9:32:57 PM [vite] hmr update /src/css/App.css
+9:33:13 PM [vite] hmr update /src/css/App.css
+9:33:17 PM [vite] hmr update /src/css/App.css
+9:33:25 PM [vite] hmr update /src/css/App.css
+9:33:31 PM [vite] hmr update /src/css/App.css
+9:33:38 PM [vite] hmr update /src/css/App.css
+9:33:39 PM [vite] hmr update /src/css/App.css
+9:34:25 PM [vite] hmr update /src/App.tsx
+9:35:53 PM [vite] hmr update /src/MainContents.tsx
+9:36:12 PM [vite] hmr update /src/MainContents.tsx
+9:36:14 PM [vite] hmr update /src/MainContents.tsx
