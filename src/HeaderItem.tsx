@@ -6,7 +6,8 @@ import "./css/HeaderItem.css";
 interface NavItem {
     id: string;
     text: string;
-    path?: string | undefined | null;
+    path: string | null;
+    isImplemented: boolean;
 }
 interface HeaderItemProps {
     items: NavItem[];
@@ -17,10 +18,11 @@ const HeaderItem: React.FC<HeaderItemProps> = ({ items }) => {
     const [selectedItem, setSelectedItem] = useState<string | null>(null);
 
     //アイテムがクリックされた際の処理
-    const handleClick = (id: string) => {
-        setSelectedItem(id);
+    const handleClick = (id: string, isImplemented: boolean) => {
+        if(isImplemented) {
+            setSelectedItem(id);
+        }
     };
-
 
     return (
         <>
@@ -28,17 +30,17 @@ const HeaderItem: React.FC<HeaderItemProps> = ({ items }) => {
                 <li
                     key={item.id}
                     className={`global-navigation__list--item ${
-                        !item.path || item.path.trim() === "" ? "no-path" : "active-path"
+                        !item.path || item.path === "" ? "no-path" : "active-path"
                     } ${selectedItem === item.id ? "selected" : ""}`}
-                    onClick={() => handleClick(item.id)}
+                    onClick={() => handleClick(item.id, item.isImplemented)}
                 >
-                    {item.path && item.path.trim() !== "" ? (
+                    {item.path ? (
                         <Link className="Link" to={item.path}>
-                            <p>{item.text}</p>
-                            <p>{item.text}</p>
+                            <span>{item.text}</span>
+                            <span>{item.text}</span>
                         </Link>
                         ) : (
-                            <p>{item.text}</p>
+                            <span>{item.text}</span>
                     )}
                 </li>
             ))}

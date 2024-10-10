@@ -3,3 +3,7 @@
     font-family: 'KumbhSans';
     src: url('/src/assets/fonts/KumbhSans-VariableFont_YOPQ,wght.ttf') format('truetype');
 }
+
+body {
+    height: 100vh;
+}

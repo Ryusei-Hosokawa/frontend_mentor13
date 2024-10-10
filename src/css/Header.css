@@ -14,6 +14,10 @@
 }
 .global-navigation__logo {
     width: 137.5px;
+    transition: all 0.24s ease-in-out;
+}
+.global-navigation__logo:hover {
+    transform: scale(1.04);
 }
 .global-navigation__list {
     display: flex;
