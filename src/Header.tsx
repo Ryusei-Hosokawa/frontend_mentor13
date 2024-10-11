@@ -10,6 +10,13 @@ interface NavItem {
     isImplemented: boolean;
 }
 
+const getSvgImageUrl = (fileName: string, extension: string = 'svg') => {
+    return new URL(`../assets/images/${fileName}.${extension}`, import.meta.url).href
+}
+const getJpgImageUrl = (fileName: string, extension: string = 'jpg') => {
+    return new URL(`../assets/images/${fileName}.${extension}`, import.meta.url).href
+}
+
 export default function Header() {
     const navItemNames = ["Collections", "Men", "Women", "About", "Contact"];
     const navItems: NavItem[] = [
@@ -56,7 +63,7 @@ export default function Header() {
                 <h1 className="global-navigation__logo" onClick={handleClick}>
                     <img
                         className="global-navigation__logo--image"
-                        src={`${process.env.PUBLIC_URL}/assets/images/logo.svg`}
+                        src={getSvgImageUrl('logo')}
                     />
                 </h1>
                 <ul className="global-navigation__list">
@@ -66,13 +73,13 @@ export default function Header() {
                     <div className="global-navigation__contents--cart">
                         <img
                             className="global-navigation__contents--cart--image"
-                            src={`${process.env.PUBLIC_URL}/assets/images/Group 14.svg`}
+                            src={getSvgImageUrl('Group_14')}
                         />
                     </div>
                     <div className="global-navigation__contents--profile">
                         <img
                             className="global-navigation__contents--profile--image"
-                            src={`${process.env.PUBLIC_URL}/assets/images/DSC02731-Enhanced.jpg`}
+                            src={getJpgImageUrl('DSC02731-Enhanced')}
                         />
                     </div>
                 </div>
