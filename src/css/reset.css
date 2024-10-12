@@ -22,7 +22,8 @@ box-sizing: border-box;
 word-wrap: break-word;
 }
 input,textarea{
-box-sizing: border-box;
+all:unset;
+box-sizing:border-box;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -59,4 +60,9 @@ max-width: 100%;
 height: auto;
 border: 0;
 vertical-align: bottom;
+}
+button {
+all: unset;
+display: inline-block;
+cursor: pointer;
 }

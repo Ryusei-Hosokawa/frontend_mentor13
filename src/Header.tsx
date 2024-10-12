@@ -2,19 +2,13 @@ import React from "react";
 import HeaderItem from "./HeaderItem.tsx";
 import "./css/Header.css";
 import { useNavigate } from "react-router-dom";
+import { getImageUrl } from "./pathHelpers.ts";
 
 interface NavItem {
     id: string;
     text: string;
     path: string | null;
     isImplemented: boolean;
-}
-
-const getSvgImageUrl = (fileName: string, extension: string = 'svg') => {
-    return new URL(`../assets/images/${fileName}.${extension}`, import.meta.url).href
-}
-const getJpgImageUrl = (fileName: string, extension: string = 'jpg') => {
-    return new URL(`../assets/images/${fileName}.${extension}`, import.meta.url).href
 }
 
 export default function Header() {
@@ -63,7 +57,7 @@ export default function Header() {
                 <h1 className="global-navigation__logo" onClick={handleClick}>
                     <img
                         className="global-navigation__logo--image"
-                        src={getSvgImageUrl('logo')}
+                        src={getImageUrl('logo')}
                     />
                 </h1>
                 <ul className="global-navigation__list">
@@ -73,13 +67,13 @@ export default function Header() {
                     <div className="global-navigation__contents--cart">
                         <img
                             className="global-navigation__contents--cart--image"
-                            src={getSvgImageUrl('Group_14')}
+                            src={getImageUrl('Group_14')}
                         />
                     </div>
                     <div className="global-navigation__contents--profile">
                         <img
                             className="global-navigation__contents--profile--image"
-                            src={getJpgImageUrl('DSC02731-Enhanced')}
+                            src={getImageUrl('DSC02731-Enhanced', 'jpg')}
                         />
                     </div>
                 </div>

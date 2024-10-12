@@ -1,7 +1,8 @@
 @charset "utf-8";
 @font-face {
     font-family: 'KumbhSans';
-    src: url(`${process.env.PUBLIC_URL}/assets/fonts/KumbhSans-VariableFont_YOPQ,wght.ttf`) format('truetype');
+    src: url('../assets/fonts/KumbhSans-VariableFont_YOPQ,wght.ttf') format('truetype');
+    src: url('./assets/fonts/KumbhSans-VariableFont_YOPQ,wght.ttf') format('truetype');
 }
 
 body {

@@ -20,6 +20,7 @@
     transform: scale(1.04);
 }
 .global-navigation__list {
+    height: 100%;
     display: flex;
     align-items: center;
     column-gap: 33px;
@@ -33,10 +34,24 @@
 }
 .global-navigation__contents--cart {
     width: 21.82px;
+    cursor: pointer;
+    transition: all 0.24s ease-in-out;
 }
 .global-navigation__contents--profile {
     width: 50px;
     height: 50px;
+    border: solid 2px transparent;
     border-radius: 50%;
     overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.global-navigation__contents--profile:hover {
+    border-color: #FF7E1B;
+}
+.global-navigation__contents--profile img {
+    transition: all 0.14s ease-in-out;
+}
+.global-navigation__contents--profile:hover img {
+    transform: scale(1.1);
 }
