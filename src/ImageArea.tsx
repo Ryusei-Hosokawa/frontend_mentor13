@@ -1,20 +1,41 @@
-import React from 'react'
-import './css/ImageArea.css'
-import { getImageUrl } from './pathHelpers.ts'
+import React from "react";
+import "./css/ImageArea.css";
+import { useState } from "react";
+import { getImageUrl } from "./pathHelpers.ts";
 
 export default function ImageArea() {
-  return (
-    <div id='ImageArea'>
-        <div className="choice__img--area">
-            <img className="choice__img--content" src={getImageUrl('Rectangle_01','jpg')} alt="選択した画像" />
+    const [selectedItem, setSelectedItem] = useState<string>('01');
+    const listItems = ["01", "02", "03", "04"];
+    const handleClick = (selectItem:string) => {
+        setSelectedItem(selectItem);
+    };
+
+    return (
+        <div id="ImageArea">
+            <div className="choice__img--area">
+                <img
+                    className="choice__img--content"
+                    src={getImageUrl(`img_product_${selectedItem}`)}
+                    alt="選択した画像"
+                />
+            </div>
+            <div className="thumbnails__img--area">
+                {listItems.map((item) => (
+                    <>
+                        <input type="radio" id={`content${item}`} name="thumbnailGroup" />
+                        <label
+                            className={`thumbnails__img--content${item}`}
+                            htmlFor={`content${item}`}
+                            onClick={() => handleClick(item)}
+                        >
+                            <img
+                                src={getImageUrl(`img_product_${item}`)}
+                                alt="サムネイル画像"
+                            />
+                        </label>
+                    </>
+                ))}
+            </div>
         </div>
-        <div className="thumbnails__img--area">
-            <input type="radio" />
-            <img className="thumbnails__img--content checked" src={getImageUrl('Rectangle_01','jpg')} alt="サムネイル画像" />
-            <img className="thumbnails__img--content" src={getImageUrl('Rectangle_02','jpg')} alt="サムネイル画像" />
-            <img className="thumbnails__img--content" src={getImageUrl('Rectangle_03','jpg')} alt="サムネイル画像" />
-            <img className="thumbnails__img--content" src={getImageUrl('Rectangle_04','jpg')} alt="サムネイル画像" />
-        </div>
-    </div>
-  )
+    );
 }

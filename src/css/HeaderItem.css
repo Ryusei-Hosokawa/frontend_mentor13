@@ -7,6 +7,12 @@
     overflow: hidden;
 }
 .global-navigation__list--item span {
+    transition: all 0.24s ease-in-out;
+}
+.global-navigation__list--item:hover span {
+    color: #1D2026;
+}
+.global-navigation__list--item span {
     display: block;
     position: relative;
     font-size: 15px;
@@ -42,4 +48,10 @@
 .global-navigation__list--item.no-path:hover::before {
     background-color: #FF7E1B;
     transform: translateY(-50%) scaleX(1);
+}
+.global-navigation__contents--cart path {
+    transition: all 0.24s ease-in-out;
+}
+.global-navigation__contents--cart:hover path {
+    fill: #1D2026;
 }
