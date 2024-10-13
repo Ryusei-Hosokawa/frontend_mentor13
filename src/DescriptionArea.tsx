@@ -1,6 +1,6 @@
 import React from 'react'
 import './css/DescriptionArea.css'
-import { getImageUrl } from './pathHelpers.ts'
+import { CartSvg } from './Svgs.tsx'
 
 export default function DescriptionArea() {
   return (
@@ -19,7 +19,7 @@ export default function DescriptionArea() {
                 <button className="quantity-adjuster__button--plus"></button>
             </div>
             <button className="button__add-to-cart">
-                <img className='button__add-to-cart--icon' src={getImageUrl('Group_14','svg')} alt="カートのアイコン" />
+                {CartSvg("button__add-to-cart--icon", '#1D2026')}
                 <p className="button__add-to-cart--text">Add to cart</p>
             </button>
         </div>

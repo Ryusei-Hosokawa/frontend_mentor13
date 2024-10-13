@@ -6,6 +6,7 @@
 #DescriptionArea {
     width: var(--areaWidth);
     font-family: "KumbhSans";
+    padding-top: 56px;
 }
 .company__name {
     font-size: 13px;
@@ -137,6 +138,9 @@
     color: #1D2026;
     cursor: pointer;
     transition: all 0.25s;
+}
+.button__add-to-cart:hover {
+    background: #FFAB6A;
 }
 .button__add-to-cart--icon {
     fill: #1D2026;
