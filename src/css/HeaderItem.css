@@ -53,5 +53,5 @@
     transition: all 0.24s ease-in-out;
 }
 .global-navigation__contents--cart:hover path {
-    fill: #1D2026;
+    fill: #FF7E1B;
 }

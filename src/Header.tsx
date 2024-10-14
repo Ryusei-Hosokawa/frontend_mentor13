@@ -1,5 +1,6 @@
 import React from "react";
 import HeaderItem from "./HeaderItem.tsx";
+import CartBox from "./CartBox.tsx";
 import "./css/Header.css";
 import { useNavigate } from "react-router-dom";
 import { getImageUrl } from "./pathHelpers.ts";
@@ -73,6 +74,7 @@ export default function Header() {
                     </div>
                 </div>
             </nav>
+            <CartBox/>
         </header>
     );
 }

@@ -1,10 +1,16 @@
 @charset "utf-8";
 
+:root {
+    --innerWidth: 1110px;
+    --innerPadding: 65px;
+    --innerOutWidth: calc(var(--innerWidth) + calc(var(--innerPadding) * 2));
+}
+
 .inner {
     width: 100%;
-    max-width: 1130px;
+    max-width: var(--innerOutWidth);
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 var(--innerPadding);
 }
 .no-contents {
     display: grid;
