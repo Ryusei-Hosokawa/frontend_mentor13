@@ -24,6 +24,11 @@ const HeaderItem: React.FC<HeaderItemProps> = ({ items }) => {
         }
     };
 
+    // クリックした要素にクラスを付与する
+    // const handleClick = () => {
+
+    // }
+
     return (
         <>
             {items.map((item) => (

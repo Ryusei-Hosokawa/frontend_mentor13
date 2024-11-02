@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import HeaderItem from "./HeaderItem.tsx";
 import CartBox from "./CartBox.tsx";
+import useCartBox from "./useCartBox.tsx";
 import "./css/Header.css";
 import { useNavigate } from "react-router-dom";
 import { getImageUrl } from "./pathHelpers.ts";
-import { CartSvg, trashSvg, logoSvg } from "./Svgs.tsx";
+import { CartSvg, logoSvg } from "./Svgs.tsx";
 
 interface NavItem {
     id: string;
@@ -53,6 +54,13 @@ export default function Header() {
         navigate("/");
         window.scrollTo(0, 0);
     };
+    const cartBox = useCartBox();
+
+    const [active, setActive] = useState(false);
+    const classToggle = () => {
+        setActive(!active);
+    };
+
     return (
         <header className="header">
             <nav className="global-navigation">
@@ -63,18 +71,24 @@ export default function Header() {
                     <HeaderItem items={navItems} />
                 </ul>
                 <div className="global-navigation__contents">
-                    <div className="global-navigation__contents--cart">
+                    <div
+                        className="global-navigation__contents--cart"
+                        onClick={classToggle}
+                    >
                         {CartSvg("global-navigation__contents--cart--image")}
                     </div>
                     <div className="global-navigation__contents--profile">
                         <img
                             className="global-navigation__contents--profile--image"
-                            src={getImageUrl('DSC02731-Enhanced')}
+                            src={getImageUrl("DSC02731-Enhanced")}
                         />
                     </div>
                 </div>
             </nav>
-            <CartBox/>
+            {/* cartBox.isVisibleがtrueの場合のみCartBoxを表示 */}
+            <div className={active ? "show" : "hidden"}>
+                <CartBox />
+            </div>
         </header>
     );
 }

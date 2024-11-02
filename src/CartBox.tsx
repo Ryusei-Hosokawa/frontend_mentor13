@@ -13,6 +13,10 @@ interface CartItem {
 export default function CartBox() {
     const [quantity, setQuantity] = useState(1); //選択した商品数を管理するためのState
     const [cartItems, setCartItems] = useState<CartItem[]>([]); //カート内商品を管理するためのState
+    const [isVisible, setIsVisible] = useState(false);
+    const toggle = () => {
+        setIsVisible((prev) => !prev);
+    };
 
     //商品をカートに追加する処理
     const addToCart = () => {

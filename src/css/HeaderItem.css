@@ -1,16 +1,42 @@
 @charset "utf-8";
 
+header {
+    --globalNavigationListItemColor1: #FF7E1B;
+    --globalNavigationListItemColor2: #1D2026;
+    --globalNavigationListItemColor3: #69707D;
+    --globalNavigationListItemTransition1: all 0.24s ease-in-out;
+}
+
+
 .global-navigation__list--item {
+    position: relative;
     display: grid;
     place-items: center;
+    height: 100%;
+}
+.global-navigation__list--item::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: var(--globalNavigationListItemColor1);
+    transition: var(--globalNavigationListItemTransition1);
+    opacity: 1;
+}
+.focus.global-navigation__list--item::before {
+    opacity: 1;
+}
+.global-navigation__list--item a.Link {
     height: 20px;
     overflow: hidden;
 }
 .global-navigation__list--item span {
-    transition: all 0.24s ease-in-out;
+    transition: var(--globalNavigationListItemTransition1);
 }
 .global-navigation__list--item:hover span {
-    color: #1D2026;
+    color: var(--globalNavigationListItemColor2);
 }
 .global-navigation__list--item span {
     display: block;
@@ -18,11 +44,11 @@
     font-size: 15px;
     font-weight: 400;
     line-height: 1.33em;
-    color: #69707D;
+    color: var(--globalNavigationListItemColor3);
     cursor: pointer;
     transition: all 0.25s ease-in-out;
 }
-.global-navigation__list--item:hover span {
+.global-navigation__list--item .Link:hover span {
     transform: translateY(-100%);
 }
 .global-navigation__list--item.no-path:hover span {
@@ -30,6 +56,7 @@
 }
 .global-navigation__list--item.no-path {
     position: relative;
+    height: initial;
 }
 .global-navigation__list--item.no-path::before {
     content: '';
@@ -40,18 +67,18 @@
     transform-origin: left;
     transform: translateY(-50%) scaleX(0);
     display: block;
-    width: 120%;
+    width: 100%;
     height: 2.5px;
-    background-color: #FF7E1B;
-    transition: all 0.24s ease-in-out;
+    background-color: var(--globalNavigationListItemColor1);
+    transition: var(--globalNavigationListItemTransition1);
 }
 .global-navigation__list--item.no-path:hover::before {
-    background-color: #FF7E1B;
+    background-color: var(--globalNavigationListItemColor1);
     transform: translateY(-50%) scaleX(1);
 }
 .global-navigation__contents--cart path {
-    transition: all 0.24s ease-in-out;
+    transition: var(--globalNavigationListItemTransition1);
 }
 .global-navigation__contents--cart:hover path {
-    fill: #FF7E1B;
+    fill: var(--globalNavigationListItemColor1);
 }

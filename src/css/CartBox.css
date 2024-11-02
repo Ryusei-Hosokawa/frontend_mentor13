@@ -1,16 +1,26 @@
 @charset "utf-8";
+.hidden .CartBox {
+    opacity: 0;
+    transform: translateY(100%) scale(0.7);
+}
+
+.show .CartBox {
+    opacity: 1;
+    transform: translateY(100%) scale(1);
+}
 
 .CartBox {
     position: absolute;
     bottom: 18px;
     right: -50px;
-    transform: translateY(100%);
     width: 360px;
     height: 256px;
     background-color: #fff;
     border-radius: 10px;
     font-family: 'KumbhSans';
     box-shadow: 0 20px 50px -20px rgba(29, 32, 38, 0.5);
+    transition: all 0.15s ease-in-out;
+    transform-origin: center;
 }
 .name__box {
     font-size: 16px;
